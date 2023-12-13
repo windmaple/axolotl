@@ -44,8 +44,8 @@ learning_rate: 0.0002
 train_on_inputs: false
 group_by_length: false
 bf16: false
-fp16: false
-tf32: true
+fp16: true
+tf32: false
 
 gradient_checkpointing: false
 early_stopping_patience:
