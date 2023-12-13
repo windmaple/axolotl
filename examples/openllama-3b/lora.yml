@@ -33,7 +33,7 @@ wandb_name:
 wandb_log_model:
 output_dir: ./lora-out
 gradient_accumulation_steps: 1
-micro_batch_size: 4
+micro_batch_size: 2
 num_epochs: 4
 optimizer: adamw_bnb_8bit
 torchdistx_path:
